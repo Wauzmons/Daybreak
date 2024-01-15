@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to bottom, rgba(192, 64, 128, 0.3), rgba(192, 64, 128, 0.3)), url("../img/space.png");
+    background-repeat: repeat;
+    font-family: Arial, sans-serif
+}
+
+.header {
+    height: 80px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(to left, orange -25%, purple 50%, orange 125%);
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.widget-header {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.widget {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 5px solid purple;
+    border-radius: 20px;
+    background: lavender;
+}
+
+.image-container {
+    width: 100%;
+    padding: 5px;
+    border: 5px solid purple;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    color: mediumvioletred !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+table,
+th,
+td {
+    word-wrap: break-word;
+}
+
+th {
+    height: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-color: purple;
+}
+
+td {
+    height: 20px;
+    padding: 5px 10px;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
